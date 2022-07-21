@@ -1,6 +1,6 @@
 import { Router } from 'express'
-import BalanceController from '../controllers/BalanceController.js'
-import OrderController from '../controllers/OrderController.js'
+import BalanceController from '../controllers/balanceController.js'
+import OrderController from '../controllers/orderController.js'
 
 const routes = new Router()
 
